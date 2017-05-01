@@ -1,0 +1,42 @@
+{
+  "name": "fela-react-prop",
+  "version": "1.0.0",
+  "description": "fela helper that generates a set of styles and sets the auto-generated className for them as property on a wrapped component",
+  "main": "build.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codepunkt/fela-react-prop.git"
+  },
+  "author": "Christoph Werner <christoph@codepunkt.de>",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "component",
+    "fela",
+    "css",
+    "css-in-js"
+  ],
+  "scripts": {
+    "build": "babel index.js -o build.js",
+    "test": "jest --coverage",
+    "prepublish": "cross-env yarn run build"
+  },
+  "dependencies": {
+    "fela": "^4.3.5",
+    "react": "^15.5.4",
+    "react-fela": "^4.3.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-object-rest-spread": "^6.20.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.16.0",
+    "coveralls": "^2.11.15",
+    "cross-env": "^4.0.0",
+    "enzyme": "^2.8.2",
+    "jest": "^18.1.0",
+    "react-dom": "^15.5.4",
+    "react-test-renderer": "^15.5.4"
+  },
+  "peerDependencies": {}
+}
