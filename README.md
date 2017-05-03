@@ -1,7 +1,7 @@
 # fela-react-prop
 [![npm version](https://badge.fury.io/js/fela-react-prop.svg)](https://badge.fury.io/js/fela-react-prop) [![Build Status](https://travis-ci.org/codepunkt/fela-react-prop.svg?branch=master)](https://travis-ci.org/codepunkt/fela-react-prop) [![Coverage Status](https://coveralls.io/repos/github/codepunkt/fela-react-prop/badge.svg?branch=master)](https://coveralls.io/github/codepunkt/fela-react-prop?branch=master)
 
-[`fela`](https://github.com/rofrischmann/fela) helper that accepts a style rule and a property. it returns a function that accepts a component, that gets the generated style classnames applied as a property.
+A HOC allowing you to specify which property to bind [`fela`](https://github.com/rofrischmann/fela) generated class names against (i.e. something other than `className`).
 
 ## Installation
 ```bash
